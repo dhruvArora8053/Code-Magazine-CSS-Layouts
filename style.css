@@ -267,3 +267,7 @@ nav p {
 } */
 
 /* Floats:- */
+.author-img {
+  float: left;
+}
+/* with float what is going to happen is that this image is basically going to be taken out of the document flow just like an absolutely positioned element. Now, the difference with here floats is that then all other elements will basically float around it. */
